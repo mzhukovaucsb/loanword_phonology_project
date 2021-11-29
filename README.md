@@ -11,3 +11,5 @@ I looked at 10 frequently used Russian verbs belonging to the Internet vocabular
 
 To determine the minimum distance between words, I used the standard Levenstein distance and also a package fonetika, which is designed for the Russian language (https://pypi.org/project/fonetika/ Package has both implemented phoneme transformation into letter-number sequence and distance engine for comparison of phonetic sequences based on Levenstein and Hamming distances). 
 
+Visualization of the data showed that only the verbs “свайпать" and “лайкать" have a sufficiently large number of neighbors, the Levenshtein distance for which is less than 3. Most likely, for each of the verbs, there are several less frequent verbs in Russian, which are pronounced in a similar way, which played a role in the process of establishing the borrowed words in the lexicon.   
+
